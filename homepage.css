@@ -1,0 +1,342 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.container {
+   background-image: url("b6a124c60bff34eea0c6c6bd51c2453a.jpg");
+   
+width: 100%;
+     
+    background-size: cover;
+    /* padding: 0px 0% */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+background-image: url("./nav3.jpg");
+}
+nav .logo p {
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    float: left;
+    color: rgb(173, 151, 195);
+  
+    cursor: pointer;
+    margin-left:  100px;
+}
+
+nav ul {
+    float: right;
+
+}
+
+nav li {
+    display: inline-block;
+    
+}
+
+nav li a {
+    font-size: 35px;
+    color: rgb(173, 151, 195);
+    
+    margin: 0px 25px;
+    justify-content: center;
+}
+
+nav li a:hover {
+    color: rgb(205, 122, 159);
+    cursor: pointer;
+}
+
+
+.Search {
+    width: 330px;
+    
+}
+
+.srch {
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 34px;
+   
+    border-right: none;
+    font-size: 20px;
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 34px;
+    background-color: rgb(173, 151, 195);
+    border-color:  rgb(173, 151, 195);
+    color: beige;
+    font-size: 15px;
+    border-radius: 5px;
+    
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #e1c6ef;;
+}
+.content {
+    color: black;
+    max-width: 620px;
+  margin-top: 10px;
+  margin-left: 80px;
+ 
+}
+.content h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 30px;
+    margin-bottom: 2px;
+    margin-top: 20px;
+    color: #823866;
+}
+.content h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 25px;
+   
+    margin-top: 0px;
+    color: #ab4985;
+}
+.content img{
+height: auto;
+margin-top:30px;
+margin-left:85px;
+align-content: space-around;
+width: 55%;
+        box-shadow:0 0 10px rgb(179, 72, 138);
+border-radius: 10px;
+font-size: 16px;
+padding: 20px 20px 20px 20px;
+}
+
+.content .cn {
+    width: 160px;
+    height: 34px;
+    background-color: rgb(173, 151, 195);
+    border-color: rgb(173, 151, 195);
+    margin-top:20px ;
+    color: beige;
+}
+ .cn:hover {
+    background-color: #e1c6ef;
+    cursor: pointer;
+}
+
+
+.firstpage{
+    display: flex;
+}
+
+ .form{
+   width:400px;
+   height:450px ;
+   background:transparent;
+   border:2px white;
+   box-shadow: 0 10px 30px rgb(199, 118, 161);
+   color:#e1c6ef;
+   border-radius: 10px;
+   padding:30px 28px;
+   margin-top:90px;
+   margin-left: 330px;
+}
+.form h2{
+    font-size: 48px;
+    text-align: center;
+    color: #e1c6ef;
+
+}
+.form .input-box{
+    width:100%;
+    height:50px;
+    background: transparent;
+    margin:30px 0px;
+  }
+
+    .input-box input{
+        width: 100%;
+height: 100%;
+background: transparent;
+border:5px bisque;
+        box-shadow:0 0 10px rgb(179, 72, 138);
+border-radius: 10px;
+font-size: 16px;
+padding: 20px 45px 20px 20px;
+    }
+    .input-box input::placeholder{
+        color: white;
+
+    }
+  
+    .form .remember-forgot{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+   
+
+    .form .btn{
+        width:100%;
+        height:45px;
+        background:#ffffff;
+        border:none;
+        border-radius:10px;
+        font-size:16px;
+        cursor: pointer;
+        color: #e1c6ef;
+        font-weight: 600;
+        box-shadow:0 0 10px rgb(179, 72, 138);
+    }
+    .form .register-link{
+        font-size:16px;
+        text-align:center;
+        padding: 20px;
+color: #181717;
+    }
+    .register-link p a{
+        color:black;
+        font-weight:600;
+    }
+  
+    #pd1{
+
+       text-align: center; 
+       padding-top: 150px;
+       font-size: x-large;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+    }
+
+    #pd1 .pro-container{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        flex-wrap: wrap;
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+    #pd1 .pro{
+        margin-left: 50px;
+        align-content: space-around; 
+        width: 23%;
+        padding:10px 12px;
+        border:1px solid transparent ;
+        border-radius: 25px;
+        cursor: pointer;
+        box-shadow: 20px 20px 30px rgb(199, 118, 161);
+    margin: 20px 0;
+    transition: 0.2s ease;
+    position: relative;
+    }
+    #pd1 .pro:hover{
+        box-shadow: 20px 20px 30px rgb(227, 139, 186) ;
+    }
+    #pd1 .pro img{
+        width: 100%;
+height: auto;
+    }
+
+    #pd1 .pro .description{
+        text-align: start;
+        padding: 10px 0;
+    }
+
+    #pd1 .pro .description span{
+        color:#606063;
+        font-size:12px ;
+    }
+
+    #pd1 .pro .description h5{
+        padding-top: 7px;
+        color: #19161b;
+        font-size: 14px;
+
+    }
+
+    #pd1 .pro .description i{
+        font-size: 12px;
+        color:rgb(243, 181, 25);
+
+    }
+    #pd1 .pro .description h4{
+        padding-top: 7px;
+        font-size: 15px;  
+   color:  rgb(173, 151, 195); 
+    }
+
+    #pd1 .pro .cart{
+        width: 40px;
+    height: 30px;
+    line-height: 40px;
+    border-radius: 50px;
+    color:  rgb(173, 151, 195);
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    }
+
+    
+    #pd3 iframe{
+       margin-top: 10px;
+       margin-bottom: 10px;
+      margin-left: 500px;
+      box-shadow: 0px 0px 20px #ab4985;
+      border-radius: 10px;
+      padding: 10px 10px 20px;
+    }
+   .iframe h3{
+margin-left: 500px;
+font-size: 30px;
+margin-top: 10px;
+    }
+
+    #pd3 .offer table {
+margin-top: 20px;
+        width: 50%; 
+        border-collapse: collapse;
+        font-size: 18px;
+        text-align: center;
+  margin-left: 400px;
+
+    }
+    
+    th, td {
+        border: 1px solid #181717;
+        padding: 10px;
+    }
+    
+    th {
+        background-color: #c9549c;
+        color: white;
+    }
+    
+   
+    tr:hover {
+        background-color:#f886a8;
+    }
+    
+    #pd3 .offer h2{
+        margin-left: 650px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    #pd3 .offer p{
+        margin-left: 600px;
+        padding-top:10px ;
+       padding-bottom: 20px;
+    }
+    
